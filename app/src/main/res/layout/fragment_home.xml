@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment"
+    android:orientation="vertical"
+    android:id="@+id/home_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/available_polls1"
+        android:textSize="26sp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal">
+    </TextView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="362dp"
+        android:layout_height="100dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="30dp"
+        app:cardBackgroundColor="#A7FFEB"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="5dp"
+        android:id="@+id/president"
+        style="@style/MaterialAlertDialog.MaterialComponents.Title.Text.CenterStacked" />
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="362dp"
+        android:layout_height="100dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="30dp"
+        app:cardBackgroundColor="#B9F6CA"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="5dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/vicepres"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="362dp"
+        android:layout_height="100dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="30dp"
+        app:cardBackgroundColor="#CCFF90"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="5dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/secretary"
+        />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
