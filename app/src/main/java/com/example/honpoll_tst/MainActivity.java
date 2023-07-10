@@ -2,6 +2,7 @@ package com.example.honpoll_tst;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.widget.Button;
 
 import com.example.honpoll_tst.ui.voting.PresidentVoting;
 import com.example.honpoll_tst.ui.voting.SecVoting;

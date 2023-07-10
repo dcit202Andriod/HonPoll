@@ -6,11 +6,19 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Secretary Candidates"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="15sp"
+        />
+
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="25sp"
-        app:cardBackgroundColor="#2334"
         app:cardElevation="5sp">
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_height="wrap_content"
@@ -27,12 +35,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="30dp"
+                android:background="@color/blue"
+                android:layout_marginBottom="5dp"
                 android:text="VOTE">
             </Button>
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="30dp"
+                android:background="@color/blue"
                 android:text="MANIFESTO">
             </Button>
             <TextView
@@ -48,7 +59,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="25sp"
-        app:cardBackgroundColor="#2334"
         app:cardElevation="5sp">
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_height="wrap_content"
@@ -65,12 +75,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="30dp"
+                android:background="@color/blue"
+                android:layout_marginBottom="5dp"
                 android:text="VOTE">
             </Button>
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="30dp"
+                android:background="@color/blue"
                 android:text="MANIFESTO">
             </Button>
             <TextView
@@ -86,19 +99,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="20dp"
-        android:text="Save and continue">
+        android:text="Save and continue"
+        android:background="@color/blue">
     </Button>
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/nav_view"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="0dp"
-        android:layout_marginEnd="0dp"
-        android:background="?android:attr/windowBackground"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:menu="@menu/bottom_nav_menu" />
 
 </androidx.appcompat.widget.LinearLayoutCompat>

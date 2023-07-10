@@ -6,10 +6,18 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Presidential Candidates"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="15sp"
+        />
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="25sp"
+        android:layout_margin="20sp"
         app:cardElevation="5sp">
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_height="wrap_content"
@@ -21,13 +29,15 @@
                     android:layout_height="170dp"
                     android:layout_margin="8dp"
                     android:src="@mipmap/ic_abayi_round"
-                    android:contentDescription="CandidateImage"/>
+                    android:contentDescription="@string/candidateimage"
+                    />
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="30dp"
                     android:text="VOTE"
-                    android:background="@color/blue">
+                    android:background="@color/blue"
+                    android:layout_marginBottom="5dp">
                 </Button>
                 <Button
                     android:layout_width="match_parent"
@@ -40,6 +50,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Candidate Name"
+                    android:textSize="20dp"
                     android:gravity="center_horizontal">
                 </TextView>
         </androidx.appcompat.widget.LinearLayoutCompat>
@@ -58,6 +69,7 @@
                 android:id="@+id/imageView1"
                 android:layout_width="match_parent"
                 android:layout_height="170dp"
+                android:src="@mipmap/ic_abayi"
                 tools:srcCompat="@tools:sample/avatars"
                 android:layout_margin="8dp"
                 android:contentDescription="CandidateImage" />
@@ -66,7 +78,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="30dp"
                 android:text="VOTE"
-                android:background="@color/blue">
+                android:background="@color/blue"
+                android:layout_marginBottom="5dp">
             </Button>
             <Button
                 android:layout_width="match_parent"
@@ -79,29 +92,21 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Candidate Name"
-                android:gravity="center_horizontal">
+                android:gravity="center_horizontal"
+                android:textSize="20sp">
             </TextView>
         </androidx.appcompat.widget.LinearLayoutCompat>
     </androidx.cardview.widget.CardView>
 
     <Button
+        android:id="@+id/savecon"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="20dp"
-        android:text="Save and continue"
+        android:text="@string/save_and_continue"
+        android:background="@color/blue"
         >
     </Button>
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/nav_view"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="0dp"
-        android:layout_marginEnd="0dp"
-        android:background="?android:attr/windowBackground"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:menu="@menu/bottom_nav_menu" />
 
 </androidx.appcompat.widget.LinearLayoutCompat>
