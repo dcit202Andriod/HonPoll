@@ -25,7 +25,16 @@
         app:cardCornerRadius="20dp"
         app:cardElevation="5dp"
         android:id="@+id/president"
-        style="@style/MaterialAlertDialog.MaterialComponents.Title.Text.CenterStacked" />
+        style="@style/MaterialAlertDialog.MaterialComponents.Title.Text.CenterStacked">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="SRC"
+                android:gravity="center"
+                android:textSize="36sp"
+                />
+    </androidx.cardview.widget.CardView>
+
 
 
     <androidx.cardview.widget.CardView
@@ -39,7 +48,15 @@
         android:clickable="true"
         android:focusable="true"
         android:id="@+id/vicepres"
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Department"
+        android:gravity="center"
+        android:textSize="36dp"
         />
+    </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
         android:layout_width="362dp"
@@ -52,6 +69,13 @@
         android:clickable="true"
         android:focusable="true"
         android:id="@+id/secretary"
-        />
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Hall"
+            android:gravity="center"
+            android:textSize="36dp"></TextView>
+    </androidx.cardview.widget.CardView>
 
 </androidx.appcompat.widget.LinearLayoutCompat>
