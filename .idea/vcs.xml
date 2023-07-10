@@ -2,7 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/HonPoll" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/HonPoll-Final" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/HonPoll" vcs="" />
+    <mapping directory="$PROJECT_DIR$/HonPoll-Final" vcs="" />
   </component>
 </project>
