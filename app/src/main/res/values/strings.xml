@@ -20,4 +20,5 @@
     <string name="save_and_continue1">Save and continue</string>
     <string name="src_candidates">SRC CANDIDATES</string>
     <string name="vote1">VOTE</string>
+    <string name="candidate_name_president">candidate name: President</string>
 </resources>

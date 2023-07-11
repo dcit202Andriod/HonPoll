@@ -18,7 +18,6 @@ import com.example.honpoll_tst.ui.dashboard.DashboardViewModel;
 
 public class PresidentVoting extends Activity {
     private Button saveandcontinue, voteabayi;
-    private LinearLayout layout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
@@ -30,23 +29,13 @@ public class PresidentVoting extends Activity {
         saveandcontinue.setOnClickListener(view -> startActivity(new Intent(PresidentVoting.this, ViceVoting.class)));
 
         voteabayi.setOnClickListener(view -> {
+
             CardView cardView = new CardView(PresidentVoting.this);
-            cardView.setCardBackgroundColor(Color.WHITE);
-            cardView.setRadius(10.0f);
-            // Add some text to the card
-            TextView textView = new TextView(PresidentVoting.this);
-            textView.setText("This is a card!");
-            textView.setTextColor(Color.BLACK);
-            // Add the text view to the card
-            cardView.addView(textView);
-            // Add the card to the layout
-            layout.addView(cardView);
         });
 
     }
 
     public void initUI(){
-        layout = findViewById(R.id.navigation_dashboard);
         saveandcontinue = findViewById(R.id.savecon);
         voteabayi = findViewById(R.id.abayibutton);
 
