@@ -1,9 +1,15 @@
 package com.example.honpoll_tst;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 
+import com.example.honpoll_tst.ui.dashboard.DashboardFragment;
+import com.example.honpoll_tst.ui.dashboard.DashboardViewModel;
 import com.example.honpoll_tst.ui.voting.PresidentVoting;
 import com.example.honpoll_tst.ui.voting.SecVoting;
 import com.example.honpoll_tst.ui.voting.ViceVoting;
@@ -21,6 +27,7 @@ import com.example.honpoll_tst.databinding.ActivityMainBinding;
 public class MainActivity extends AppCompatActivity {
 
     private CardView president, vicepres, secretary;
+    private Button voteabayi;
 
 
     private ActivityMainBinding binding;
@@ -46,9 +53,25 @@ public class MainActivity extends AppCompatActivity {
         president.setOnClickListener(view -> startActivity(new Intent(MainActivity.this, PresidentVoting.class)));
         vicepres.setOnClickListener(view -> startActivity(new Intent(MainActivity.this, PresidentVoting.class)));
         secretary.setOnClickListener(view -> startActivity(new Intent(MainActivity.this, PresidentVoting.class)));
+
+//        voteabayi.setOnClickListener(view -> {
+//            CardView cardView = new CardView(MainActivity.this);
+//            cardView.setCardBackgroundColor(Color.WHITE);
+//            cardView.setRadius(10.0f);
+//            // Add some text to the card
+//            TextView textView = new TextView(MainActivity.this);
+//            textView.setText("This is a card!");
+//            textView.setTextColor(Color.BLACK);
+//            // Add the text view to the card
+//            cardView.addView(textView);
+//            // Add the card to the layout
+//            LinearLayout layout = findViewById(R.id.navigation_dashboard);
+//            layout.addView(cardView);
+//        });
     }
 
     public void initUI(){
+        voteabayi = findViewById(R.id.abayibutton);
         president = findViewById(R.id.president);
         vicepres = findViewById(R.id.vicepres);
         secretary = findViewById(R.id.secretary);
