@@ -44,8 +44,8 @@ public class MainActivity extends AppCompatActivity {
         initUI();
 
         president.setOnClickListener(view -> startActivity(new Intent(MainActivity.this, PresidentVoting.class)));
-        vicepres.setOnClickListener(view -> startActivity(new Intent(MainActivity.this, ViceVoting.class)));
-        secretary.setOnClickListener(view -> startActivity(new Intent(MainActivity.this, SecVoting.class)));
+        vicepres.setOnClickListener(view -> startActivity(new Intent(MainActivity.this, PresidentVoting.class)));
+        secretary.setOnClickListener(view -> startActivity(new Intent(MainActivity.this, PresidentVoting.class)));
     }
 
     public void initUI(){

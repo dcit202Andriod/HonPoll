@@ -70,12 +70,13 @@
         android:focusable="true"
         android:id="@+id/secretary"
         >
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="Hall"
             android:gravity="center"
-            android:textSize="36dp"></TextView>
+            android:textSize="36dp" />
     </androidx.cardview.widget.CardView>
 
 </androidx.appcompat.widget.LinearLayoutCompat>
