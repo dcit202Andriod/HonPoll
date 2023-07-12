@@ -20,6 +20,7 @@
   <h3 align="center">Team Members</h3>
   <p align = "center">
     <a href="https://github.com/KAsare1">Kofi Asare-Amankwah - 10983723</a>
+      <a href="https://github.com/byte-hog">Abayi Ezekiel Alosum - 10967960</a>
   </p>
   ### Key Features
   
