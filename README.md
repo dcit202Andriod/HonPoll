@@ -23,6 +23,7 @@
     <a href="https://github.com/byte-hog">Abayi Ezekiel Alosum - 10967960</a>
       <a href="https://github.com/Gliz23">Glory Akoto - 10988041</a>
       <a href="https://github.com/Pam-Twumasi15">Pamela Saama Twumasi - 10962429</a>
+       <a href="https://github.com/10982895">Audrey Agyiriwaa Barkoh - 10982895</a>
   </p>
   ### Key Features
   
