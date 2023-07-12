@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.cardview.widget.CardView;
 
@@ -29,8 +30,8 @@ public class PresidentVoting extends Activity {
         saveandcontinue.setOnClickListener(view -> startActivity(new Intent(PresidentVoting.this, ViceVoting.class)));
 
         voteabayi.setOnClickListener(view -> {
+            Toast.makeText(getApplicationContext(), "vote registered!", Toast.LENGTH_SHORT).show();
 
-            CardView cardView = new CardView(PresidentVoting.this);
         });
 
     }
