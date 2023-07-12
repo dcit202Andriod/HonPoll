@@ -21,7 +21,7 @@
   <p align = "center">
     <a href="https://github.com/KAsare1">Kofi Asare-Amankwah</a>
   </p>
-  ## Key Features
+  ### Key Features
   
   * Voting for Candidates
     - Vote for Candidates when an admin uploads them unto the server
@@ -29,15 +29,15 @@
     - While you vote, your ballots is stored in another page so you can see the candidates you voted for
   * Available on all versions of android
   
-  ## How To Use
+  ### How To Use
   
   To clone and run this application, you'll need Android Studio
   
-  # Clone this repository
+  ### Clone this repository
   $ git clone https://github.com/dcit202Andriod/HonPoll.git
   
-  # Go into the repository
+  ### Go into the repository
   $ cd HonPoll
   
   
-  # Run the app on android studio
+  ### Run the app on Android Studio
