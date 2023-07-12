@@ -29,7 +29,7 @@
     - While you vote, your ballots is stored in another page so you can see the candidates you voted for
   * Available on all versions of android
   
-  ### How To Use
+  ## How To Use
   
   To clone and run this application, you'll need Android Studio
   
