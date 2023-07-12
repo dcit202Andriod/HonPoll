@@ -17,7 +17,7 @@
     <a href="#how-to-use">How To Use</a> •
     <a href="#download">Download</a> •
   </p>
-  <h5 align="center">Team Members</h5>
+  <h3 align="center">Team Members</h3>
   <p align = "center">
     <a href="https://github.com/KAsare1">Kofi Asare-Amankwah</a>
   </p>
