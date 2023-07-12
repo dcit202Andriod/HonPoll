@@ -25,12 +25,13 @@
             android:layout_width="match_parent"
             android:orientation="vertical">
             <ImageView
-                android:id="@+id/imageView"
+                android:id="@+id/imageView21"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                tools:srcCompat="@tools:sample/avatars"
+                android:layout_height="170dp"
                 android:layout_margin="8dp"
-                android:contentDescription="CandidateImage" />
+                android:src="@mipmap/ic_abayi_round"
+                android:contentDescription="@string/candidateimage"
+                />
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -66,12 +67,13 @@
             android:layout_width="match_parent"
             android:orientation="vertical">
             <ImageView
-                android:id="@+id/imageView1"
+                android:id="@+id/imageView222"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                tools:srcCompat="@tools:sample/avatars"
+                android:layout_height="170dp"
                 android:layout_margin="8dp"
-                android:contentDescription="CandidateImage" />
+                android:src="@mipmap/ic_abayi_round"
+                android:contentDescription="@string/candidateimage"
+                />
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
